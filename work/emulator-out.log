@@ -1,0 +1,204 @@
+INFO         | Android emulator version 37.2.12.0 (build_id 16428233) (CL:N/A)
+INFO         | Graphics backend: gfxstream
+INFO         | Found systemPath C:\Users\keval\AppData\Local\Android\Sdk\system-images\android-37.2\google_apis_playstore_ps16k\x86_64\
+INFO         | Guest usage of host flag 'VulkanVirtualQueue' will be ignored.
+INFO         | Increasing RAM size to 4096MB
+INFO         | IPv4 server found: 148.213.245.245
+INFO         | Ignore IPv6 address: 9081:57e1:e001:0:9081:57e1:e001:0
+INFO         | Ignore IPv6 address: 9081:57e1:e001:0:9081:57e1:e001:0
+INFO         | Ignore IPv6 address: 9081:57e1:e001:0:9081:57e1:e001:0
+INFO         | Ignore IPv6 address: 8887:57e1:e001:0:9081:57e1:e001:0
+INFO         | Ignore IPv6 address: 8887:57e1:e001:0:9081:57e1:e001:0
+INFO         | Ignore IPv6 address: 8887:57e1:e001:0:9081:57e1:e001:0
+INFO         | Ignore IPv6 address: 788f:57e1:e001:0:9081:57e1:e001:0
+INFO         | Ignore IPv6 address: 788f:57e1:e001:0:9081:57e1:e001:0
+INFO         | Ignore IPv6 address: 788f:57e1:e001:0:9081:57e1:e001:0
+INFO         | Ignore IPv6 address: 9095:57e1:e001:0:9081:57e1:e001:0
+INFO         | Ignore IPv6 address: 9095:57e1:e001:0:9081:57e1:e001:0
+INFO         | Ignore IPv6 address: 9095:57e1:e001:0:9081:57e1:e001:0
+INFO         | Ignore IPv6 address: 38a3:57e1:e001:0:9081:57e1:e001:0
+INFO         | Ignore IPv6 address: 38a3:57e1:e001:0:9081:57e1:e001:0
+INFO         | Ignore IPv6 address: 38a3:57e1:e001:0:9081:57e1:e001:0
+INFO         | Guest GLES Driver: Auto (ext controls)
+INFO         | emuglConfig_get_vulkan_hardware_gpu_support_info: Found physical GPU 'Intel(R) Iris(R) Xe Graphics', type: VK_PHYSICAL_DEVICE_TYPE_INTEGRATED_GPU, apiVersion: 1.3.240, driverVersion: 0.405.159
+
+INFO         | emuglConfig_get_vulkan_hardware_gpu_support_info: Found physical GPU 'Microsoft Direct3D12 (Intel(R) Iris(R) Xe Graphics)', type: VK_PHYSICAL_DEVICE_TYPE_INTEGRATED_GPU, apiVersion: 1.2.359, driverVersion: 26.2.99
+
+INFO         | emuglConfig_get_vulkan_hardware_gpu_support_info: Found physical GPU 'Microsoft Direct3D12 (Microsoft Basic Render Driver)', type: VK_PHYSICAL_DEVICE_TYPE_CPU, apiVersion: 1.2.359, driverVersion: 26.2.99
+
+INFO         | emuglConfig_init: vulkan_mode_selected:host gles_mode_selected:host
+INFO         | Checking system compatibility:
+INFO         |   Checking: hasCompatibleHypervisor
+INFO         |      Ok: Hypervisor compatibility to run avd: `Kevin_Phone` are met
+INFO         |   Checking: hasSufficientSystem
+INFO         |      Warning: Suggested minimum system RAM to run avd 'Kevin_Phone' is 16384 MiB (available: 16002 MiB)
+INFO         |   Checking: hasSufficientHwGpu
+INFO         |      Ok: Hardware GPU requirements to run avd: `Kevin_Phone` are passed
+INFO         |   Checking: hasSufficientDiskSpace
+INFO         |      Ok: Disk space requirements to run avd: `Kevin_Phone` are met
+USER_WARNING | Suggested minimum system RAM to run avd 'Kevin_Phone' is 16384 MiB (available: 16002 MiB).
+INFO         | Critical: Failed to load opengl32sw (No se puede encontrar el módulo especificado.) (:0, )
+INFO         | Warning: Software OpenGL failed. Falling back to system OpenGL. (:0, )
+INFO         | Storing crashdata in: C:\Users\keval\AppData\Local\Temp\\AndroidEmulator\emu-crash-37.2.12.db, detection is enabled for process: 460
+INFO         | Showing crashdialog to get consent.
+  module_list[0].crashpad_annotations["ERRLOG"] (type = 1) = Failed to find ColorBuffer: 158
+Failed to bind to texture: invalid color buffer.
+
+  module_list[0].crashpad_annotations["ro.build.fingerprint"] (type = 1) = google/generic_system_google/generic:17/CP41.260831.007/16416850:user/dev-keys
+  module_list[0].crashpad_annotations["free_ram"] (type = 1) = 2996
+  module_list[0].crashpad_annotations["cpu_cores"] (type = 1) = 12
+  module_list[0].crashpad_annotations["PlayStore.enabled"] (type = 1) = true
+  module_list[0].crashpad_annotations["hw.lcd.width"] (type = 1) = 1080
+  module_list[0].crashpad_annotations["hw.ramSize"] (type = 1) = 4096
+  module_list[0].crashpad_annotations["hw.lcd.height"] (type = 1) = 2424
+  module_list[0].crashpad_annotations["hw.gpu.mode"] (type = 1) = auto
+  module_list[0].crashpad_annotations["hw.sensor.hinge"] (type = 1) = ?
+  module_list[0].crashpad_annotations["disk.dataPartition.size"] (type = 1) = 8G
+  module_list[0].crashpad_annotations["avd_space"] (type = 1) = 786665831008
+  module_list[0].crashpad_annotations["hw.cpu.ncore"] (type = 1) = 4
+  module_list[0].crashpad_annotations["hw.gpu.enabled"] (type = 1) = yes
+  module_list[0].crashpad_annotations["grpc"] (type = 1) = cn:T,adv,
+  module_list[0].crashpad_annotations["AVD_FLAVOR"] (type = 1) = AVD_OTHER
+  module_list[0].crashpad_annotations["gfxstream_features"] (type = 1) = GlPipeChecksum, Vulkan, HasSharedSlotsHostMemoryAllocator, VulkanShaderFloat16Int8, GlAsyncSwap, GlDma, GlDirectMem, GlesDynamicVersion, RefCountPipe, HostComposition, VulkanNullOptionalStrings, YuvCache, VulkanIgnoredHandles, VulkanQueueSubmitWithCommands, HwcMultiConfigs, VulkanVirtualQueue, VulkanUseDedicatedAhbMemoryType, 
+  module_list[0].crashpad_annotations["internal-msg"] (type = 1) = gpu found. vendor id 8086 device id 0x46a8
+emuglConfig_init: gpu_mode_requested: auto, no_window: 0
+emuglConfig_init: GPU emulation enabled using Vulkan:'host' GLES:'host' modes
+Deciding if GLDirectMem/Vulkan should be enabled. Selected GLES renderer: Host Selected Vulkan renderer: Host API level: 37 
+Enabling Vulkan
+Enabling GLDirectMem
+Selecting Vulkan device: Intel(R) Iris(R) Xe Graphics, Version: 1.3.240
+VkEmulation deviceInfo: 
+hasGraphicsQueueFamily = 1
+hasComputeQueueFamily = 1
+externalMemoryMode = OpaqueWin32
+supportsExternalMemoryImport = 1
+supportsExternalMemoryExport = 1
+supportsDriverProperties = 1
+supportsExternalMemoryHostProps = 1
+hasSamplerYcbcrConversionExtension = 1
+supportsSamplerYcbcrConversion = 1
+glInteropSupported = 0
+hasNvidiaDeviceDiagnosticCheckpointsExtension = 1
+supportsNvidiaDeviceDiagnosticCheckpoints = 0
+supportsPrivateData = 1
+
+Vulkan emulation initialized
+
+  module_list[0].crashpad_annotations["command_line"] (type = 1) = @Kevin_Phone 
+INFO         | No consent for crashreport cb2a1cd0-807a-45e7-b785-ae6e750a66f0, deleting.
+INFO         | Initializing gfxstream backend
+INFO         | startOpenglesRendererImpl: gpu info
+INFO         | GPU #1
+  Make: 8086
+  Model: Intel(R) Iris(R) Xe Graphics
+  Device ID: 46a8
+
+INFO         | Vulkan 1.4 is not supported for the guest and won't be enabled
+INFO         | Disabling implicit Vulkan layers to avoid compatibility issues. Set VK_LOADER_LAYERS_DISABLE manually to disable this behavior.
+INFO         | SharedLibrary::open for [C:\Users\keval\AppData\Local\Android\Sdk\emulator\qemu\windows-x86_64\lib64\vulkan\vulkan-1.dll]
+INFO         | SharedLibrary::open for [C:\Users\keval\AppData\Local\Android\Sdk\emulator\lib64\vulkan\vulkan-1.dll]
+INFO         | Added library: C:\Users\keval\AppData\Local\Android\Sdk\emulator\lib64\vulkan\vulkan-1.dll
+INFO         | Selecting Vulkan device: Intel(R) Iris(R) Xe Graphics, Version: 1.3.240
+INFO         | Using Vulkan externalMemoryMode: OpaqueWin32 for VkEmulation
+INFO         | Format VK_FORMAT_G10X6_B10X6R10X6_2PLANE_420_UNORM_3PACK16 does not support YCbCr sampler conversion
+INFO         | Format VK_FORMAT_G10X6_B10X6R10X6_2PLANE_422_UNORM_3PACK16 does not support YCbCr sampler conversion
+INFO         | Initializing VkEmulation features:
+INFO         |     glInteropSupported: false
+INFO         |     useDeferredCommands: true
+INFO         |     createResourceWithRequirements: true
+INFO         |     useVulkanComposition: false
+INFO         |     useVulkanNativeSwapchain: false
+INFO         |     enable guestRenderDoc: false
+INFO         |     ASTC LDR emulation mode: Gpu
+INFO         |     enable ETC2 emulation: true
+INFO         |     enable Ycbcr emulation: false
+INFO         |     guestVulkanOnly: false
+INFO         |     useDedicatedAllocations: false
+INFO         |     guestVulkanMaxApiVersion: 1.3.0
+INFO         |     enableProtectedMemoryEmulation: false
+INFO         | Graphics Adapter Vendor Google (Intel)
+INFO         | Graphics Adapter Android Emulator OpenGL ES Translator (Intel(R) Iris(R) Xe Graphics)
+INFO         | Graphics API Version OpenGL ES 3.0 (4.5.0 - Build 31.0.101.4255)
+INFO         | Graphics API Extensions GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_texture_format_BGRA8888 GL_APPLE_texture_format_BGRA8888 
+INFO         | Graphics Device Extensions N/A
+INFO         | Disabling sparse binding feature support
+INFO         | Sending adb public key [QAAAAJ+5MhOh3UUFsW4BLfeZOUa7cGefz5lZuEy9/cX6cL8y22WKJOFpgyWVATEb2jzbnywiLwnOUxpm5bQ3oMz++eme6xjkKBqJG2909zUrFBmqsVs/tlfknOlnEWmXX8tS+3ZESCMz03yfrXO4RF1WnG+EPIt9WLGHnP9j2IBMO+Bg3y9eqRXyxPw0kPXqVJGfk/1ns8u/UZKFf7i5H+lVAk9nVzMzVNUpe5jEN4lo1Bzp87LOno0PQC0QxHmOp5BRtKNXjvdfHo6y6WhAGpRlW4LHY/ORdfmGcMAZRz/SLCyHL8jBAEcP4nt1u7DkryBrhCJkBc4rkrNvgulP2cu0GfuUPMXuF39VRpKAakpMss/Bjd0h3brMiCtQqGYL1DLscEZiwEMK6cW0Lt6ITQpNOAFvfVvcwkAXyyh+ytjXXKcdcesFY9RuRfcIBLZZ9j3r0C6LlnyXdji7CxKoS7PK8sLvBguAfBV6IG59hgrN7xwGlWwZ1OitHvg9EyIga9fJ0wqvLAuFgChaS43/BkYbMXWdjHA3jIoJGlTWrtmiIVhaFF+Kw3RcXybj5IgWrzB6kVuBqxz8UYBChiLiXapKlwGBlt6vMyISnRNQ9IkpVp1bcYYeNc2Rz75e/M+0tRewuWhLyWIX7mT8rmOo1J+uO7LJ8P+ewmqmyX3dPil1Soq0mfe/7QEAAQA= @unknown]
+INFO         | Userspace boot properties:
+INFO         |   androidboot.boot_devices=pci0000:00/0000:00:03.0 pci0000:00/0000:00:06.0
+INFO         |   androidboot.dalvik.vm.heapsize=576m
+INFO         |   androidboot.debug.hwui.renderer=skiagl
+INFO         |   androidboot.hardware=ranchu
+INFO         |   androidboot.hardware.gltransport=pipe
+INFO         |   androidboot.hardware.vulkan=ranchu
+INFO         |   androidboot.logcat=*:V
+INFO         |   androidboot.opengles.version=196608
+INFO         |   androidboot.qemu=1
+INFO         |   androidboot.qemu.adb.pubkey=QAAAAJ+5MhOh3UUFsW4BLfeZOUa7cGefz5lZuEy9/cX6cL8y22WKJOFpgyWVATEb2jzbnywiLwnOUxpm5bQ3oMz++eme6xjkKBqJG2909zUrFBmqsVs/tlfknOlnEWmXX8tS+3ZESCMz03yfrXO4RF1WnG+EPIt9WLGHnP9j2IBMO+Bg3y9eqRXyxPw0kPXqVJGfk/1ns8u/UZKFf7i5H+lVAk9nVzMzVNUpe5jEN4lo1Bzp87LOno0PQC0QxHmOp5BRtKNXjvdfHo6y6WhAGpRlW4LHY/ORdfmGcMAZRz/SLCyHL8jBAEcP4nt1u7DkryBrhCJkBc4rkrNvgulP2cu0GfuUPMXuF39VRpKAakpMss/Bjd0h3brMiCtQqGYL1DLscEZiwEMK6cW0Lt6ITQpNOAFvfVvcwkAXyyh+ytjXXKcdcesFY9RuRfcIBLZZ9j3r0C6LlnyXdji7CxKoS7PK8sLvBguAfBV6IG59hgrN7xwGlWwZ1OitHvg9EyIga9fJ0wqvLAuFgChaS43/BkYbMXWdjHA3jIoJGlTWrtmiIVhaFF+Kw3RcXybj5IgWrzB6kVuBqxz8UYBChiLiXapKlwGBlt6vMyISnRNQ9IkpVp1bcYYeNc2Rz75e/M+0tRewuWhLyWIX7mT8rmOo1J+uO7LJ8P+ewmqmyX3dPil1Soq0mfe/7QEAAQA= @unknown
+INFO         |   androidboot.qemu.avd_name=Kevin_Phone
+INFO         |   androidboot.qemu.camera_hq_edge_processing=0
+INFO         |   androidboot.qemu.camera_protocol_ver=1
+INFO         |   androidboot.qemu.cpuvulkan.version=4210688
+INFO         |   androidboot.qemu.gltransport.drawFlushInterval=800
+INFO         |   androidboot.qemu.gltransport.name=pipe
+INFO         |   androidboot.qemu.hwcodec.avcdec=2
+INFO         |   androidboot.qemu.hwcodec.hevcdec=2
+INFO         |   androidboot.qemu.hwcodec.vpxdec=2
+INFO         |   androidboot.qemu.settings.system.screen_off_timeout=2147483647
+INFO         |   androidboot.qemu.skin=pixel_10
+INFO         |   androidboot.qemu.virtiowifi=1
+INFO         |   androidboot.qemu.vsync=60
+INFO         |   androidboot.serialno=EMULATOR37X2X12X0
+INFO         |   androidboot.vbmeta.digest=9d8da9cc464251f49fcd44399769b6b3763891fcc6b9401be556460c4b63166b
+INFO         |   androidboot.vbmeta.hash_alg=sha256
+INFO         |   androidboot.vbmeta.size=6720
+INFO         |   androidboot.veritymode=enforcing
+WHPX on Windows 10.0.26200 detected.
+Windows Hypervisor Platform accelerator is operational
+INFO         | Monitoring duration of emulator setup.
+WARNING      | The emulator now requires a signed jwt token for gRPC access! Use the -grpc flag if you really want an open unprotected grpc port
+INFO         | Using security allow list from: C:\Users\keval\AppData\Local\Android\Sdk\emulator\lib\emulator_access.json
+INFO         | The active JSON Web Key Sets can be found here: C:\Users\keval\AppData\Local\Temp\avd\running\460\jwks\e74b0b24-eb84-4c24-8e73-a910416f1f10\active.jwk
+INFO         | Scanning C:\Users\keval\AppData\Local\Temp\avd\running\460\jwks\e74b0b24-eb84-4c24-8e73-a910416f1f10 for jwk keys.
+INFO         | Started GRPC server at 127.0.0.1:8554, security: Local, auth: +token
+INFO         | Advertising in: C:\Users\keval\AppData\Local\Temp\avd\running\pid_460.ini
+INFO         | Activated packet streamer for uwb emulation
+INFO         | Successfully initialized netsim WiFi
+INFO         | Activated packet streamer for bluetooth emulation
+INFO         | Setting display: 0 configuration to: 1080x2424, dpi: 420x420 
+INFO         | setDisplayActiveConfig: id:0, 1080x2424
+INFO         | Checking system compatibility:
+INFO         |   Checking: hasCompatibleHypervisor
+INFO         |      Ok: Hypervisor compatibility to run avd: `Kevin_Phone` are met
+INFO         |   Checking: hasSufficientSystem
+INFO         |      Warning: Suggested minimum system RAM to run avd 'Kevin_Phone' is 16384 MiB (available: 16002 MiB)
+INFO         |   Checking: hasSufficientHwGpu
+INFO         |      Ok: Hardware GPU requirements to run avd: `Kevin_Phone` are passed
+INFO         |   Checking: hasSufficientDiskSpace
+INFO         |      Ok: Disk space requirements to run avd: `Kevin_Phone` are met
+WARNING      | getEnvironmentConfig: No environment config is provided
+INFO         | getEnvironmentConfig: Using default virtual scene mode for the environment.
+INFO         | getEnvironmentConfig: Using default configuration for mode mesh3d for the environment.
+INFO         | Initializing a scene with mode: mesh3d, argument: Toren1BD.obj
+USER_INFO    | Emulator is performing a full startup. This may take upto two minutes, or more.
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_rgbcSensorValueWidget_valueChanged() (:0, )
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_posture_valueChanged(int) (:0, )
+INFO         | TouchpadHolder: registering via hw_xr_led agent for instance=000001E0914DCF20
+INFO         | Warning: QObject::connect: Cannot queue arguments of type 'std::vector<android::emulation::control::SnapshotInfo>'
+(Make sure 'std::vector<android::emulation::control::SnapshotInfo>' is registered using qRegisterMetaType().) (:0, )
+INFO         | AVD supportsNativeGLES=1, supportsGuestAngle=1
+INFO         | Guest Angle is still unstable for API > 35.
+INFO         | Created extended window in 339.667ms
+WARNING      | adb command 'C:\Users\keval\AppData\Local\Android\Sdk\platform-tools\adb.exe -s emulator-5554 shell getprop sys.boot_completed ' failed: 'adb.exe: device offline'
+WARNING      | adb command 'C:\Users\keval\AppData\Local\Android\Sdk\platform-tools\adb.exe -s emulator-5554 shell getprop sys.boot_completed ' failed: 'adb.exe: device offline'
+INFO         | Critical: UpdateLayeredWindowIndirect failed for ptDst=(154, 100), size=(300x21), dirty=(300x21 0, 0) (Uno de los dispositivos conectados al sistema no funciona.) (:0, )
+INFO         | Boot completed in 96130 ms
+INFO         | Increasing screen off timeout, logcat buffer size to 2M.
+INFO         | Wait for emulator (pid 460) 20 seconds to shutdown gracefully before kill;you can set environment variable ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL(in seconds) to change the default value (20 seconds)
+
+INFO         | Wait for emulator (pid 460) 20 seconds to shutdown gracefully before kill;you can set environment variable ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL(in seconds) to change the default value (20 seconds)
+
+INFO         | Saving with gfxstream=1
+INFO         | Saving snapshot 'default_boot' took 2717 ms
+INFO         | removeScene: scene=0x1e08677ad30
+INFO         | removeAll
+WARNING      | Netsim Wifi dns:///localhost:62932 is gone due to Stream removed (CANCELLED)
